@@ -110,8 +110,8 @@ if let ext_pod_archive_path = ProcessInfo.processInfo.environment["ORT_EXTENSION
     // ORT Extensions release
     package.targets.append(
         Target.binaryTarget(name: "onnxruntime_extensions",
-                            url: "https://download.onnxruntime.ai/pod-archive-onnxruntime-extensions-c-0.12.0.zip",
+                            url: "https://storage.googleapis.com/vidcap-public-uploads/pod-archive-onnxruntime-extensions-c-0.12.0.zip",
                             // SHA256 checksum
-                            checksum: "542be5904cf2cc93db6b8afcd11b023b001333e3151bea8bff1c7b1cf8959fab")
+                            checksum: "2765c8dac62e7fa980fcb9ca392b5dd9d4cf22b2ff7487b4f38575f7b9ed62e1")
     )
 }
